@@ -1,0 +1,5 @@
+{
+  "extends": "./cypress.json",
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "https://www.24mx.pl/"
+}

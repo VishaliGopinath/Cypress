@@ -1,0 +1,5 @@
+{
+  "projectId": "1etpzs",
+  "baseUrl": "https://www.24mx.ie/",
+  "testFiles": "**/*.{feature,features}"
+}

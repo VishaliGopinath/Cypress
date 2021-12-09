@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "PierceAB",
+    "line": 1,
+    "id": "pierceab",
+    "tags": [],
+    "uri": "PierceAB.feature",
+    "elements": [
+      {
+        "id": "pierceab;search-product",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search Product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens the 24MX web page",
+            "result": {
+              "status": "passed",
+              "duration": 5140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "A user enter the search product \"Helmet\"",
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "A user searches for the product",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "A user will get the search result for the product",
+            "result": {
+              "status": "passed",
+              "duration": 1606000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pierceab;view-24mx-outlet",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "View 24MX Outlet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens the 24MX web page",
+            "result": {
+              "status": "passed",
+              "duration": 3788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "A user clicks on the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "A user clicks on the Outlet",
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "A user will be able to see discounted products at outlet",
+            "result": {
+              "status": "passed",
+              "duration": 986000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pierceab;view-bags",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "View Bags",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens the 24MX web page",
+            "result": {
+              "status": "passed",
+              "duration": 4083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "A user clicks on the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "A user clicks on the Motorcross Gear",
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "A user clicks on the Bags section",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "A user will be able to see all the available bags",
+            "result": {
+              "status": "passed",
+              "duration": 2419000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pierceab;view-brands",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "View Brands",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens the 24MX web page",
+            "result": {
+              "status": "passed",
+              "duration": 5286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "A user clicks on the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "A user clicks on the Brands",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "A user will be able to see all the available brands",
+            "result": {
+              "status": "passed",
+              "duration": 1930000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pierceab;view-order-status",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "View Order Status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens the 24MX web page",
+            "result": {
+              "status": "passed",
+              "duration": 4656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "A user clicks on the Menu",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "A user clicks on the Order Status",
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "A user will be able to see the window requesting order information",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

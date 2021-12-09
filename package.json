@@ -1,0 +1,45 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "posttest": "node cucumber-html-report.js",
+    "cy:24mxpl": "cypress run --config-file ./DomainPL.json && npm run posttest",
+    "cy:24mxie": "cypress run --config-file ./DomainIE.json && npm run posttest"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "automation"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@bahmutov/cypress-extends": "^1.1.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "babel-loader": "^8.2.3",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^9.1.1",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "fs-extra": "^10.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.3",
+    "tsify": "^5.0.4",
+    "webpack": "^5.65.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
